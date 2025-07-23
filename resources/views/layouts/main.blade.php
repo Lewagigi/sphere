@@ -37,7 +37,7 @@
   <div class="flex items-center mt-6 lg:mt-0">
       <div class="relative">
           <input type="text" class="bg-gray-800 text-sm rounded-full focus:outline-none focus shadow-outline sw-64 px-3 py-1 " placeholder="Search">
-          <a href="{{route('home')}}">Enregistrez</a>
+          <a class="lg:flex-row" href="{{route('home')}}">Enregistrez</a>
            <div class="absolute top-0 flex items-center h-full ml-2">
 
       </div>
