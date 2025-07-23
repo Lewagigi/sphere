@@ -24,9 +24,11 @@
 
     </a>
     <ul class="flex ml-0 lg:ml-16 space-x-8 mt-6 lg:mt-0">
+        <a href="{{route('home')}}">Enregistrez</a>
         <li><a href="#" class="hover:text-gray-400">Games</a> </li>
         <li><a href="#" class="hover:text-gray-400">Review</a> </li>
         <li><a href="#" class="hover:text-gray-400">Comming soon</a> </li>
+
 
 
     </ul>
