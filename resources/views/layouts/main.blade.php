@@ -24,7 +24,7 @@
 
     </a>
     <ul class="flex ml-0 lg:ml-16 space-x-8 mt-6 lg:mt-0">
-        <a href="{{route('home')}}">Enregistrez</a>
+
         <li><a href="#" class="hover:text-gray-400">Games</a> </li>
         <li><a href="#" class="hover:text-gray-400">Review</a> </li>
         <li><a href="#" class="hover:text-gray-400">Comming soon</a> </li>
@@ -37,6 +37,7 @@
   <div class="flex items-center mt-6 lg:mt-0">
       <div class="relative">
           <input type="text" class="bg-gray-800 text-sm rounded-full focus:outline-none focus shadow-outline sw-64 px-3 py-1 " placeholder="Search">
+          <a href="{{route('home')}}">Enregistrez</a>
            <div class="absolute top-0 flex items-center h-full ml-2">
 
       </div>
