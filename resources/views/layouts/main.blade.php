@@ -20,6 +20,7 @@
 <nav class="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 py-6">
 <div class="flex flex-col lg:flex-row items-center">
     <a href="/">
+
         <img src="/img/3e30910891ae9ce42d174de99e3de348.jpg" alt="" class="w-32 flex-none">
 
     </a>
@@ -37,7 +38,7 @@
   <div class="flex items-center mt-6 lg:mt-0">
       <div class="relative">
           <input type="text" class="bg-gray-800 text-sm rounded-full focus:outline-none focus shadow-outline sw-64 px-3 py-1 " placeholder="Search">
-          <a class="lg:flex-row" href="{{route('home')}}">Enregistrez</a>
+          <a class="flex items-center mt-6 lg:mt-0" href="{{route('home')}}">Enregistrez</a>
            <div class="absolute top-0 flex items-center h-full ml-2">
 
       </div>
