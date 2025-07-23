@@ -4,6 +4,8 @@
 
     <div class="container mx-auto px-4">
         <h2 class="text-blue-500 uppercase tracking-wide font-semibold">Popular Gray</h2>
+
+        <a class="flex items-center mt-6 lg:mt-0" href="{{route('home')}}">Enregistrez</a>
         <div class="popular-games text-sm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-6  gap-12 border-b border-gray-800 pb-16">
 
 
