@@ -38,7 +38,7 @@
 
            <div class="absolute top-0 flex items-center h-full ml-2">
 
-               <a class="flex items-center mt-6 lg:mt-0" href="{{route('home')}}">Enregistrez</a>
+
 
       </div>
       <div class="ml-6">
