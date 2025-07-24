@@ -30,7 +30,7 @@
             }
         </style>
 
-   <!--     <title inertia>{{ config('app.name', 'Laravel') }}</title> -->
+
 
 
       <!--  <link rel="preconnect" href="https://fonts.bunny.net"> -->
