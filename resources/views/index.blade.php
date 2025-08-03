@@ -110,7 +110,7 @@
 
   <header class="bg-white shadow-sm">
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-      <h1 class="text-3xl font-bold tracking-tight text-gray-900">Dashboard</h1>
+      <h1 class="text-3xl font-bold tracking-tight text-gray-900">GCI NOUVELLE TECHNOLOGIE</h1>
     </div>
   </header>
   <main>
@@ -157,7 +157,7 @@
           </dl>
         </div>
       </div>
-      <img width="2432" height="1442" src="/img/public/img/3e30910891ae9ce42d174de99e3de348.jpg" alt="Product screenshot" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-228 md:-ml-4 lg:-ml-0" />
+      <img width="2432" height="1442" src="/img/3e30910891ae9ce42d174de99e3de348.jpg" alt="Product screenshot" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-228 md:-ml-4 lg:-ml-0" />
     </div>
   </div>
 </div>
