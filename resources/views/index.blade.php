@@ -120,7 +120,7 @@
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div class="lg:pt-4 lg:pr-8">
         <div class="lg:max-w-lg">
-          <h2 class="text-base/7 font-semibold text-indigo-400">Deploy faster</h2>
+          <h2 class="text-base/7 font-semibold text-indigo-400">Nouvelle ère</h2>
           <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">Gci NOUVELLE TECHNOLOGIE</p>
           <p class="mt-6 text-lg/8 text-gray-300">Notre Vision.</p>
           <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
@@ -295,7 +295,7 @@
               </svg>
               Watch demo
             </a>
-            <a href="#" class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100">
+            <a href="{{route('home')}}" class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100">
               <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="size-5 flex-none text-gray-400">
                 <path d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z" clip-rule="evenodd" fill-rule="evenodd" />
               </svg>
