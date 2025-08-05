@@ -333,7 +333,7 @@
 <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
 <div class="relative">
   <button popovertarget="desktop-menu-solutions" class="inline-flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
-    <span>Solutions</span>
+    <span>Lerer</span>
     <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="size-5">
       <path d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" fill-rule="evenodd" />
     </svg>
