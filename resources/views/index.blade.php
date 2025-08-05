@@ -112,10 +112,11 @@
     </div>
   </header>
   <main>
+    
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
 
 
-     <div class="overflow-hidden bg-gray-400 py-24 sm:py-32">
+     <div class="overflow-hidden bg-gray-900 py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div class="lg:pt-4 lg:pr-8">
@@ -153,9 +154,9 @@
   </div>
 </div>
 
+jjj
 
-
-<div class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
+<div class="relative isolate flex items-center gap-x-6  bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
   <div aria-hidden="true" class="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl">
     <div style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)" class="aspect-577/310 w-144.25 bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30"></div>
   </div>
