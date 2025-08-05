@@ -228,7 +228,7 @@
                   Administration
                   <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-gray-600">Get a better understanding of your traffic</p>
+                <p class="mt-1 text-gray-600">Seulement les admins</p>
               </div>
             </div>
             <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
