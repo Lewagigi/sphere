@@ -9,7 +9,7 @@
 
 </head>
 
-<body class="bg-gray-900 text-white">
+<body class="bg-gray-500 text-white">
 
 
 
@@ -21,7 +21,7 @@
      @yield('content')
  </main >
 
- <footer class="border-t border-gray-800">
+ <footer class="border-t border-gray-500">
      <div class="container mx-auto px-4 py-6">
          poyer by <a href="#" class="underline hover:text-gray-400">IGD API</a>
      </div>
