@@ -494,8 +494,8 @@
         <div class="flex items-center gap-x-6">
           <img src="" alt="" class="size-16 rounded-full outline-1 -outline-offset-1 outline-black/5" />
           <div>
-            <h3 class="text-base/7 font-semibold tracking-tight text-gray-900">L</h3>
-            <p class="text-sm/6 font-semibold text-indigo-600">Designer</p>
+            <h3 class="text-base/7 font-semibold tracking-tight text-gray-900">Severine</h3>
+            <p class="text-sm/6 font-semibold text-indigo-600"></p>
           </div>
         </div>
       </li>
@@ -503,8 +503,8 @@
         <div class="flex items-center gap-x-6">
           <img src="" alt="" class="size-16 rounded-full outline-1 -outline-offset-1 outline-black/5" />
           <div>
-            <h3 class="text-base/7 font-semibold tracking-tight text-gray-900">ER</h3>
-            <p class="text-sm/6 font-semibold text-indigo-600">Director of Product</p>
+            <h3 class="text-base/7 font-semibold tracking-tight text-gray-900">Arrive</h3>
+            <p class="text-sm/6 font-semibold text-indigo-600"></p>
           </div>
         </div>
       </li>
