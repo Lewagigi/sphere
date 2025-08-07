@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
+import {route} from "ziggy-js";
 </script>
 
 <template>
@@ -68,7 +69,7 @@ import { Head, Link } from '@inertiajs/vue3';
             <button type="button" class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
               <span class="absolute -inset-1.5"></span>
               <span class="sr-only">View notifications</span>
-              
+
             </button>
 
             <!-- Profile dropdown -->
@@ -151,13 +152,13 @@ import { Head, Link } from '@inertiajs/vue3';
             <th scope="col"
               class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
 
-              None 
+              None
             </th>
 
           <th scope="col"
               class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
 
-              None 
+              None
             </th>
 
             <th scope="col"
@@ -183,13 +184,13 @@ import { Head, Link } from '@inertiajs/vue3';
 
               Role
             </th>
-            
 
-              <th scope="col" 
+
+              <th scope="col"
               class="relative px-6 py-5">
                 <span class="sr-only">Edit</span>
 
-        
+
             </th>
         </tr>
     </thead>
@@ -231,22 +232,22 @@ import { Head, Link } from '@inertiajs/vue3';
              </td>
 
                <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                
+
+                <a href="{{route('home')}}" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+
              </td>
 
 
              <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                
+
                 <a href="#" class="text-indigo-600 hover:text-indigo-900">Ajouter</a>
-                
+
              </td>
 
              <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                
+
                 <a href="#" class="text-indigo-600 hover:text-indigo-900">Supprimer</a>
-                
+
              </td>
 
         </tr>
@@ -263,13 +264,13 @@ import { Head, Link } from '@inertiajs/vue3';
             <th scope="col"
               class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
 
-              None 
+              None
             </th>
 
           <th scope="col"
               class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
 
-              None 
+              None
             </th>
 
             <th scope="col"
@@ -295,13 +296,13 @@ import { Head, Link } from '@inertiajs/vue3';
 
               Role
             </th>
-            
 
-              <th scope="col" 
+
+              <th scope="col"
               class="relative px-6 py-5">
                 <span class="sr-only">Edit</span>
 
-        
+
             </th>
         </tr>
     </thead>
@@ -343,22 +344,22 @@ import { Head, Link } from '@inertiajs/vue3';
              </td>
 
                <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                
+
                 <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                
+
              </td>
 
 
              <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                
+
                 <a href="#" class="text-indigo-600 hover:text-indigo-900">Ajouter</a>
-                
+
              </td>
 
              <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                
+
                 <a href="#" class="text-indigo-600 hover:text-indigo-900">Supprimer</a>
-                
+
              </td>
 
         </tr>
@@ -399,13 +400,13 @@ import { Head, Link } from '@inertiajs/vue3';
             <th scope="col"
               class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
 
-              None 
+              None
             </th>
 
           <th scope="col"
               class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
 
-              None 
+              None
             </th>
 
             <th scope="col"
@@ -431,13 +432,13 @@ import { Head, Link } from '@inertiajs/vue3';
 
               Role
             </th>
-            
 
-              <th scope="col" 
+
+              <th scope="col"
               class="relative px-6 py-5">
                 <span class="sr-only">Edit</span>
 
-        
+
             </th>
         </tr>
     </thead>
@@ -479,22 +480,22 @@ import { Head, Link } from '@inertiajs/vue3';
              </td>
 
                <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                
+
                 <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                
+
              </td>
 
 
              <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                
+
                 <a href="#" class="text-indigo-600 hover:text-indigo-900">Ajouter</a>
-                
+
              </td>
 
              <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                
+
                 <a href="#" class="text-indigo-600 hover:text-indigo-900">Supprimer</a>
-                
+
              </td>
 
         </tr>

@@ -11,7 +11,8 @@ class listesusers extends Controller
 {
     public function affiche(){
         $use = User::all() ;
-        return Inertia::render('Welcome');
+        return Inertia::render('',['user'=>$use]) ;
+
    }
 
 
