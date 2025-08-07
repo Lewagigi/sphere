@@ -20,11 +20,12 @@ const breadcrumbs: BreadcrumbItem[] = [
             <div class="grid auto-rows-min gap-4 md:grid-cols-3">
                 <div class="relative aspect-video overflow-hidden rounded-xl border border-sidebar-border/70 dark:border-sidebar-border">
                     <PlaceholderPattern />
+                    Je suis Administrateur
                 </div>
                 <div class="relative aspect-video overflow-hidden rounded-xl border border-sidebar-border/70 dark:border-sidebar-border">
                     <PlaceholderPattern />
 
-                    jjfjf
+
                 </div>
                 <div class="relative aspect-video overflow-hidden rounded-xl border border-sidebar-border/70 dark:border-sidebar-border">
                     <PlaceholderPattern />
