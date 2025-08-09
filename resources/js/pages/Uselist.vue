@@ -4,7 +4,7 @@ import { type BreadcrumbItem } from '@/types';
 import { Head } from '@inertiajs/vue3';
 import PlaceholderPattern from '../components/PlaceholderPattern.vue';
 
-defineProps({ user: Object })
+
 
 
 const breadcrumbs: BreadcrumbItem[] = [
