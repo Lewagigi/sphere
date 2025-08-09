@@ -9,11 +9,12 @@ use phpDocumentor\Reflection\Types\Void_;
 
 class listesusers extends Controller
 {
-    public function affiche(){
-        $use = User::all() ;
-        return Inertia::render('',['user'=>$use]) ;
-
-   }
+    public function show(User $user)
+    {
+        return Inertia::render('User/Show', [
+            'user' => $user
+        ]);
+    }
 
 
 }
