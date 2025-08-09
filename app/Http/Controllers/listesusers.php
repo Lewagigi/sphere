@@ -11,7 +11,7 @@ class listesusers extends Controller
 {
     public function show(User $user)
     {
-        return Inertia::render('User/Show', [
+        return Inertia::render('Uselist', [
             'user' => $user
         ]);
     }
