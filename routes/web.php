@@ -15,17 +15,9 @@ Route::get('/', function () {
   //  return view('app');
 //});
 
-Route::get('/users', function () {
-    return Inertia::render('Users');
-})->middleware(['auth', 'verified']);
 
 
 
-
-
-Route::get('/users', function () {
-    return User::select('id', 'name', 'email')->get();
-});
 
 
 
