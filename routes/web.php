@@ -16,14 +16,14 @@ Route::get('/', function () {
 //});
 
 Route::get('/users', function () {
-    return Inertia\Inertia::render('Users');
+    return Inertia::render('Users');
 })->middleware(['auth', 'verified']);
 
 
 
 
 
-Route::middleware('auth:sanctum')->get('/users', function () {
+Route::get('/users', function () {
     return User::select('id', 'name', 'email')->get();
 });
 
