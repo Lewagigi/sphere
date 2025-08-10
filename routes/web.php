@@ -1,5 +1,5 @@
 <?php
-
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -14,6 +14,20 @@ Route::get('/', function () {
 //Route::get('/test', function () {
   //  return view('app');
 //});
+
+Route::get('/users', function () {
+    return Inertia\Inertia::render('Users');
+})->middleware(['auth', 'verified']);
+
+
+
+
+
+Route::middleware('auth:sanctum')->get('/users', function () {
+    return User::select('id', 'name', 'email')->get();
+});
+
+
 
 
 Route::get('dashboard', function () {
