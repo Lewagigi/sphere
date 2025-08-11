@@ -1,6 +1,6 @@
-<setup lang="ts">
-import { ref, onMounted } from 'vue'
-import axios from 'axios'
+<script setup lang="ts">
+
+
 
 const users = ref([])
 
@@ -13,7 +13,9 @@ onMounted(async () => {
         console.error(error)
     }
 })
-</setup>
+
+</script>
+
 
 <template>
   <div>
