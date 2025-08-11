@@ -23,9 +23,9 @@ Route::get('/users', function () {
 
 
 
-Route::get('/users', function () {
-    return User::select('id', 'name', 'email')->get();
-});
+//Route::get('/users', function () {
+  //  return User::select('id', 'name', 'email')->get();
+//});
 
 
 
