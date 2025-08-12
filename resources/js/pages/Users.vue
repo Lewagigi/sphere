@@ -2,18 +2,6 @@
 
 
 
-const users = ref([])
-
-onMounted(async () => {
-    try {
-        // Axios est déjà configuré dans Breeze pour utiliser Sanctum
-        const { data } = await axios.get('/api/users')
-        users.value = data
-    } catch (error) {
-        console.error(error)
-    }
-})
-
 </script>
 
 
