@@ -12,12 +12,9 @@ class listesusers extends Controller
      public function show(string $id): Response
 
     {
+         User::select('id', 'name', 'email')->get();
 
-        return Inertia::render('users/show', [
-
-            'user' => User::findOrFail($id)
-
-        ]);
+        return Inertia::render('users/show');
 
     }
 

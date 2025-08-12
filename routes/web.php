@@ -15,16 +15,16 @@ Route::get('/', function () {
   //  return view('app');
 //});
 
-//Route::get('/users', function () {
-  //  return Inertia::render('Users');
+//Route::get('/users', function () 
+ // return Inertia::render('users/sh');
 //})->middleware(['auth', 'verified']);
 
-//Route::get('/users', [Listesusers::class, 'show']);
+Route::get('/users', [Listesusers::class, 'show']);
 
 
-Route::get('/users', function () {
-   return User::select('id', 'name', 'email')->get();
-});
+//Route::get('/users', function () {
+  // return User::select('id', 'name', 'email')->get();
+//});
 
 
 

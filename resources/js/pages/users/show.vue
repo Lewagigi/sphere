@@ -1,17 +1,7 @@
-<script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import axios from 'axios'
+<script>
 
-const users = ref([])
 
-onMounted(async () => {
-    try {
-        const { data } = await axios.get('/api/users') // axios utilise déjà Sanctum dans Breeze
-        users.value = data
-    } catch (error) {
-        console.error(error)
-    }
-})
+
 </script>
 
 
