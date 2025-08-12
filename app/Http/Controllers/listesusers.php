@@ -9,12 +9,12 @@ use phpDocumentor\Reflection\Types\Void_;
 
 class listesusers extends Controller
 {
-     public function show(string $id): Response
+     public function show()
 
     {
-         User::select('id', 'name', 'email')->get();
+        $users = User::all();
 
-        return Inertia::render('users/show');
+        return Inertia::render('users/show',[$users->toArray()]);
 
     }
 
