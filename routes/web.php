@@ -15,12 +15,11 @@ Route::get('/', function () {
   //  return view('app');
 //});
 
-Route::get('/users', function () {
-    return Inertia::render('Users');
-})->middleware(['auth', 'verified']);
+//Route::get('/users', function () {
+  //  return Inertia::render('Users');
+//})->middleware(['auth', 'verified']);
 
-
-
+Route::get('/users', [Listesusers::class, 'show']);
 
 
 //Route::get('/users', function () {
@@ -30,9 +29,8 @@ Route::get('/users', function () {
 
 
 
-Route::get('dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+//Route::get('dashboard', function () {
+  ////})->middleware(['auth', 'verified'])->name('dashboard');
 
-require __DIR__.'/settings.php';
-require __DIR__.'/auth.php';
+//require __DIR__.'/settings.php';
+//require __DIR__.'/auth.php';

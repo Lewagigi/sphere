@@ -9,11 +9,16 @@ use phpDocumentor\Reflection\Types\Void_;
 
 class listesusers extends Controller
 {
-    public function show(User $user)
+     public function show(string $id): Response
+
     {
-        return Inertia::render('Uselist', [
-            'user' => $user
+
+        return Inertia::render('users/show', [
+
+            'user' => User::findOrFail($id)
+
         ]);
+
     }
 
 
