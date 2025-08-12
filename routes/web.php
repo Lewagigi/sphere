@@ -2,6 +2,7 @@
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\Usersconroller;
 
 Route::get('/test', function () {
     return Inertia::render('Welcome');
@@ -19,8 +20,7 @@ Route::get('/', function () {
  // return Inertia::render('users/sh');
 //})->middleware(['auth', 'verified']);
 
-Route::get('/users', [Listesusers::class, 'show']);
-
+Route::get('/users', [Usersconroller::class, 'show']);
 
 //Route::get('/users', function () {
   // return User::select('id', 'name', 'email')->get();
