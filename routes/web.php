@@ -19,12 +19,12 @@ Route::get('/', function () {
   //  return Inertia::render('Users');
 //})->middleware(['auth', 'verified']);
 
-Route::get('/users', [Listesusers::class, 'show']);
+//Route::get('/users', [Listesusers::class, 'show']);
 
 
-//Route::get('/users', function () {
-  //  return User::select('id', 'name', 'email')->get();
-//});
+Route::get('/users', function () {
+   return User::select('id', 'name', 'email')->get();
+});
 
 
 
