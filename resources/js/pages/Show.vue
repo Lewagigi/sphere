@@ -1,18 +1,26 @@
-<script>
-
-
-
+<script setup>
+//import Layout from './Layout'
+import { Link, Head } from '@inertiajs/vue3'
+defineProps({ user: Object })
 </script>
 
 
 <template>
-  <div>
-    <h1 class="text-lg font-bold mb-4">Liste des utilisateurs</h1>
-    <ul>
-      <li v-for="user in users" :key="user.id">
-        {{ user.name }} — {{ user.email }}
-      </li>
-    </ul>
-  </div>
-</template>
+  <Layout>
+    
+    <Head title="users" />
+    
 
+    <div v-for="user in users" :key="user.id">
+        {{ user.name }}
+      kfkkf
+      <Link :href="`/users/${user.id}`">
+           
+        {{ user.name }}
+
+      </Link>
+      
+      <div>{{ user.email }}</div>
+    </div>
+  </Layout>
+</template>
