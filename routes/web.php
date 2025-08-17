@@ -24,7 +24,7 @@ Route::get('/', function () {
  // return Inertia::render('users/sh');
 //})->middleware(['auth', 'verified']);
 
-Route::get('/users', [Usersconroller::class, 'show']);
+Route::get('users', [Usersconroller::class, 'show']);
 
 //Route::get('/users', function () {
   // return User::select('id', 'name', 'email')->get();
