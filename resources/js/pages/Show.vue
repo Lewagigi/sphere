@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import { User } from '@/types';
-import { Head } from '@inertiajs/vue3';
+
 
 defineProps<{
     users: Array<User>;
@@ -10,9 +10,6 @@ defineProps<{
 
 
      <template>
-  
-       
-
         <div class="py-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <ul role="list" class="divide-y divide-gray-100">

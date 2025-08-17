@@ -19,11 +19,13 @@ class Usersconroller extends Controller
        // $users = User::active()
           //  ->orderByName()
           //  ->get(['id', 'name', 'email']);
-           $users = DB::table('users')->get(['id', 'name', 'email']);
+         
 
-           return Inertia::render('Show', [
-            'users' => $users
+        return Inertia::render('Show', [
+            'users' => auth()->user()->friends()->get(),
         ]);
+
+        
     }
    //  public function show()
    // {
