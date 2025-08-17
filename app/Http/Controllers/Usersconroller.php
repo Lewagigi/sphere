@@ -22,7 +22,7 @@ class Usersconroller extends Controller
          
 
         return Inertia::render('Show', [
-            'users' => auth()->user()->friends()->get(),
+            'users' => auth()->user()->users()->get(),
         ]);
 
         
