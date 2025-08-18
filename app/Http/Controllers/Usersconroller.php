@@ -19,15 +19,13 @@ class Usersconroller extends Controller
         $users = User::all()  ;
         
   
-   //  public function show()
-   // {
-     //   return Inertia::render('Show',['users' => User::all()]);
+   
          return Inertia::render('Show',[
            'users' => $users
 
        ]);
        
-  //  }
+  
 
       }
 
