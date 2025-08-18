@@ -16,25 +16,19 @@ class Usersconroller extends Controller
 
  public function show()
     {
-       // $users = User::active()
-          //  ->orderByName()
-          //  ->get(['id', 'name', 'email']);
-         
-
-        return Inertia::render('Show', [
-            'users' => auth()->user()->users()->get(),
-        ]);
-
+        $users = User::all()  ;
         
-    }
+  
    //  public function show()
    // {
      //   return Inertia::render('Show',['users' => User::all()]);
-         //return Inertia::render('Show',[
-           // 'users' => $users
+         return Inertia::render('Show',[
+           'users' => $users
 
-      //  ]);
+       ]);
        
   //  }
+
+      }
 
 }
