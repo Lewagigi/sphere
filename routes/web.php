@@ -15,7 +15,7 @@ use App\Http\Controllers\Usersconroller;
 
 Route::get('/', function () {
     return view('index');
-})->middleware('auth');
+});
 
 Route::get('/test', [Usersconroller::class, 'we'])
 ->name('home')
