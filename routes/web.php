@@ -6,11 +6,12 @@ use App\Http\Controllers\Usersconroller;
 
 Route::get('/test', function () {
     return Inertia::render('Welcome');
-})->name('home');
+})->name('home')
+  ;
 
 Route::get('/', function () {
     return view('index');
-});
+})->middleware('auth');
 
 
 
