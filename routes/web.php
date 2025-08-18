@@ -4,15 +4,23 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\Usersconroller;
 
-Route::get('/test', function () {
-    return Inertia::render('Welcome');
-})
-->name('home')
-->middleware('auth');
+//Route::get('/test', function () {
+   //// return Inertia::render('Welcome');
+//})
+//->name('home')
+//->middleware('auth');
+
+
+
 
 Route::get('/', function () {
     return view('index');
-})->middleware('auth');
+});
+
+Route::get('/test', [Usersconroller::class, 'we'])
+->name('home')
+->middleware('auth');
+
 
 
 

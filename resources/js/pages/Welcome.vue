@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
 import {route} from "ziggy-js";
+
+defineProps({
+  users: Array
+})
 </script>
 
 <template>
@@ -145,235 +149,36 @@ import {route} from "ziggy-js";
     </div>
   </header>
   <main>
-    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-      <table class="min-w-full divide-y divide-gray-200">
-    <thead class="bg-gray-50">
-        <tr>
-            <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
 
-              None
-            </th>
+      <div class="p-8">
+    <h1 class="text-3xl font-bold mb-6 text-gray-800">Liste des utilisateurs</h1>
 
-          <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              None
-            </th>
-
-            <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Status
-            </th>
-
-               <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Role
-            </th>
-
-              <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Role
-            </th>
-
-              <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Role
-            </th>
-
-
-              <th scope="col"
-              class="relative px-6 py-5">
-                <span class="sr-only">Edit</span>
-
-
-            </th>
-        </tr>
-    </thead>
-
-       <tbody class="bg-white divide-y divide-gray-200">
-        <tr>
-             <td class="px-6 py-4 whitespace-nowrap">
-                <div class="flex items-center">
-                    <div class="flex-shrink-0 h-16 w-10">
-                        <img  src="" class="h-10 w-10 rounded-full" />
-
-                    </div>
-
-                    <div class="ml-4">
-                        <div class="text-sm font-medium text-gray-900">
-                            Lewa
-                        </div>
-                        <div class="text-sm text-gray-500">
-                            gigi.com
-                        </div>
-                    </div>
-
-                </div>
-             </td>
-
-             <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm text-blue-900">Regional</div>
-                 <div class="text-sm text-blue-900">Region</div>
-             </td>
-
-             <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                    Active
-                </span>
-             </td>
-
-               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                Admin
-             </td>
-
-               <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-
-                <a href="{{route('home')}}" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-
-             </td>
-
-
-             <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Ajouter</a>
-
-             </td>
-
-             <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Supprimer</a>
-
-             </td>
-
-        </tr>
-
+    <div class="overflow-x-auto bg-white shadow-md rounded-lg">
+      <table class="min-w-full border border-gray-200">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="px-6 py-3 text-left text-sm font-semibold text-gray-600">ID</th>
+            <th class="px-6 py-3 text-left text-sm font-semibold text-gray-600">Nom</th>
+            <th class="px-6 py-3 text-left text-sm font-semibold text-gray-600">Email</th>
+            <th class="px-6 py-3 text-left text-sm font-semibold text-gray-600">Créé le</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="user in users" :key="user.id" class="border-b hover:bg-gray-50">
+            <td class="px-6 py-4 text-sm text-gray-700">{{ user.id }}</td>
+            <td class="px-6 py-4 text-sm text-gray-700">{{ user.name }}</td>
+            <td class="px-6 py-4 text-sm text-gray-700">{{ user.email }}</td>
+            <td class="px-6 py-4 text-sm text-gray-500">
+              {{ new Date(user.created_at).toLocaleDateString() }}
+            </td>
+          </tr>
         </tbody>
-
-</table>
-
-
-
-     <table class="min-w-full divide-y divide-gray-200">
-    <thead class="bg-gray-50">
-        <tr>
-            <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              None
-            </th>
-
-          <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              None
-            </th>
-
-            <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Status
-            </th>
-
-               <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Role
-            </th>
-
-              <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Role
-            </th>
-
-              <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Role
-            </th>
-
-
-              <th scope="col"
-              class="relative px-6 py-5">
-                <span class="sr-only">Edit</span>
-
-
-            </th>
-        </tr>
-    </thead>
-
-       <tbody class="bg-white divide-y divide-gray-200">
-        <tr>
-             <td class="px-6 py-4 whitespace-nowrap">
-                <div class="flex items-center">
-                    <div class="flex-shrink-0 h-16 w-10">
-                        <img  src="" class="h-10 w-10 rounded-full" />
-
-                    </div>
-
-                    <div class="ml-4">
-                        <div class="text-sm font-medium text-gray-900">
-                            Lewa
-                        </div>
-                        <div class="text-sm text-gray-500">
-                            gigi.com
-                        </div>
-                    </div>
-
-                </div>
-             </td>
-
-             <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm text-blue-900">Regional</div>
-                 <div class="text-sm text-blue-900">Region</div>
-             </td>
-
-             <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                    Active
-                </span>
-             </td>
-
-               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                Admin
-             </td>
-
-               <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-
-             </td>
-
-
-             <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Ajouter</a>
-
-             </td>
-
-             <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Supprimer</a>
-
-             </td>
-
-        </tr>
-
-        </tbody>
-
-</table>
-
-
-
-
-
-
+      </table>
     </div>
+  </div>
+   
+
+
   </main>
 </div>
 
@@ -392,123 +197,6 @@ import {route} from "ziggy-js";
   ```
 -->
 
-            <main class="flex w-full max-w-[335px] flex-col-reverse overflow-hidden rounded-lg lg:max-w-4xl lg:flex-row">
-
-                <table class="min-w-full divide-y divide-gray-200">
-    <thead class="bg-gray-50">
-        <tr>
-            <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              None
-            </th>
-
-          <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              None
-            </th>
-
-            <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Status
-            </th>
-
-               <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Role
-            </th>
-
-              <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Role
-            </th>
-
-              <th scope="col"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
-              Role
-            </th>
-
-
-              <th scope="col"
-              class="relative px-6 py-5">
-                <span class="sr-only">Edit</span>
-
-
-            </th>
-        </tr>
-    </thead>
-
-       <tbody class="bg-white divide-y divide-gray-200">
-        <tr>
-             <td class="px-6 py-4 whitespace-nowrap">
-                <div class="flex items-center">
-                    <div class="flex-shrink-0 h-16 w-10">
-                        <img  src="" class="h-10 w-10 rounded-full" />
-
-                    </div>
-
-                    <div class="ml-4">
-                        <div class="text-sm font-medium text-gray-900">
-                            Lewa
-                        </div>
-                        <div class="text-sm text-gray-500">
-                            gigi.com
-                        </div>
-                    </div>
-
-                </div>
-             </td>
-
-             <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm text-blue-900">Regional</div>
-                 <div class="text-sm text-blue-900">Region</div>
-             </td>
-
-             <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                    Active
-                </span>
-             </td>
-
-               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                Admin
-             </td>
-
-               <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-
-             </td>
-
-
-             <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Ajouter</a>
-
-             </td>
-
-             <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Supprimer</a>
-
-             </td>
-
-        </tr>
-
-        </tbody>
-
-</table>
-
-
-
-
-
-            </main>
         </div>
         <div class="hidden h-14.5 lg:block"></div>
     </div>
