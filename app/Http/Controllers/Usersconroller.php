@@ -17,9 +17,7 @@ class Usersconroller extends Controller
  public function show()
     {
         $users = User::all()  ;
-        
-  
-   
+
          return Inertia::render('Show',[
            'users' => $users
 

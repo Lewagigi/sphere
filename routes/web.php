@@ -6,8 +6,9 @@ use App\Http\Controllers\Usersconroller;
 
 Route::get('/test', function () {
     return Inertia::render('Welcome');
-})->name('home')
-  ;
+})
+->name('home')
+->middleware('auth');
 
 Route::get('/', function () {
     return view('index');
@@ -17,15 +18,13 @@ Route::get('/', function () {
 
 
 
-//Route::get('/test', function () {
-  //  return view('app');
-//});
+Route::get('users', [Usersconroller::class, 'show'])->name('utilisateur');
 
-//Route::get('/users', function () 
- // return Inertia::render('users/sh');
-//})->middleware(['auth', 'verified']);
 
-Route::get('users', [Usersconroller::class, 'show']);
+Route::get('dashboard', function () {
+    return Inertia::render('Dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
 
 //Route::get('/users', function () {
   // return User::select('id', 'name', 'email')->get();
