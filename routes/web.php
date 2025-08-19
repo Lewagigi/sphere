@@ -26,7 +26,8 @@ Route::get('/test', [Usersconroller::class, 'we'])
 
 
 
-Route::get('users', [Usersconroller::class, 'show'])->name('utilisateur');
+Route::get('users', [Usersconroller::class, 'show'])->name('utilisateur')
+->middleware('auth');
 
 
 Route::get('dashboard', function () {
