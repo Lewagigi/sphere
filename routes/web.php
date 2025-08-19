@@ -18,7 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/test', [Usersconroller::class, 'we'])
-->name('home');
+->name('home')
+->middleware('auth');
 
 
 
