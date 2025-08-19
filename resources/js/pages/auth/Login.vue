@@ -28,7 +28,7 @@ const submit = () => {
 </script>
 
 <template>
-    <AuthBase title="Identifiez Vous" description="Entrez votre email et mot de passe">
+    <AuthBase title="GCI NOUVELLE TECHNOLOGIE" description="Entrez votre email et mot de passe">
         <Head title="Log in" />
 
         <div v-if="status" class="mb-4 text-center text-sm font-medium text-green-600">
