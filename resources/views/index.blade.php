@@ -22,13 +22,13 @@
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
-           
+
               <a href="#" aria-current="page" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">Menu</a>
-              
+
               <a href="{{route('utilisateur')}}" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Les Membres de Gci Nouvelle Technologie</a>
               <a href="" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projets</a>
-              <a href="{{route('home')}}" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Enregistrez Vous</a>
-              <a href="{{route('home')}}" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Se Connecter</a>
+              <a href="{{route('register')}}" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Enregistrez Vous</a>
+              <a href="{{route('login')}}" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Se Connecter</a>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
                 <path d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
-              
+
             </button>
 
             <!-- Profile dropdown -->
@@ -118,7 +118,7 @@
     </div>
   </header>
   <main>
-    
+
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
 
 
@@ -133,21 +133,21 @@
           <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
             <div class="relative pl-9">
               <dt class="inline font-semibold text-white">
-                
+
                 Futur leader
               </dt>
               <dd class="inline">Notre Espoir Eternel</dd>
             </div>
             <div class="relative pl-9">
               <dt class="inline font-semibold text-white">
-                
+
                 Une generation des leaders
               </dt>
               <dd class="inline">Domination.</dd>
             </div>
             <div class="relative pl-9">
               <dt class="inline font-semibold text-white">
-                
+
                 Database backups.
               </dt>
               <dd class="inline">Worship.</dd>
@@ -193,7 +193,7 @@
   <nav aria-label="Global" class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
     <div class="flex lg:flex-1">
       <a href="#" class="-m-1.5 p-1.5">
-       
+
         <img src="" alt="" class="h-8 w-auto" />
       </a>
     </div>
@@ -314,20 +314,20 @@
     </div>
   </nav>
   <el-dialog>
-    
 
-         
+
+
 
 
 
 <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
 
-    
-   
+
+
       </div>
 
-      
+
 </header>
 
 
@@ -338,7 +338,7 @@
 <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
 <div class="relative">
- 
+
 
   <el-popover id="desktop-menu-solutions" anchor="bottom" popover class="w-screen max-w-max overflow-visible bg-transparent px-4 transition transition-discrete [--anchor-gap:--spacing(5)] backdrop:bg-transparent open:flex data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in">
     <div class="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm/6 shadow-lg ring-1 ring-gray-900/5">
