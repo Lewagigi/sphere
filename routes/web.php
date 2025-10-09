@@ -31,7 +31,7 @@ Route::get('users', [Usersconroller::class, 'show'])->name('utilisateur')
 
 Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
-});
+})->middleware(['auth', 'verified'])->name('dashboard');
 
 
 //Route::get('/users', function () {
