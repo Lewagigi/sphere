@@ -15,11 +15,10 @@ use App\Http\Controllers\Usersconroller;
 
 Route::get('/', function () {
     return view('index');
-})->middleware('auth');
+});
 
 Route::get('/test', [Usersconroller::class, 'we'])
-->name('home')
-->middleware('auth');
+->name('home');
 
 
 
@@ -32,7 +31,7 @@ Route::get('users', [Usersconroller::class, 'show'])->name('utilisateur')
 
 Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+});
 
 
 //Route::get('/users', function () {
