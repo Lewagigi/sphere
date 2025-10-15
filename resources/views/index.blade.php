@@ -173,7 +173,7 @@
     <p class="text-sm/6 text-gray-900">
       <strong class="font-semibold">Gci</strong><svg viewBox="0 0 2 2" aria-hidden="true" class="mx-2 inline size-0.5 fill-current"><circle r="1" cx="1" cy="1" /></svg>Regjoingnez le prochain evenement .....
     </p>
-    <a href="{{route('register')}}" class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Enregistrez Vous Maintenant <span aria-hidden="true">&rarr;</span></a>
+
   </div>
   <div class="flex flex-1 justify-end">
     <button type="button" class="-m-3 p-3 focus-visible:-outline-offset-4">
