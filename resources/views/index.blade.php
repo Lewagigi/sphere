@@ -18,7 +18,7 @@
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
           <div class="shrink-0">
-            <img src="" alt="" class="size-8" />
+            <img src="/img/" alt="" class="size-8" />
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
@@ -162,7 +162,6 @@
             <div class="relative pl-9">
               <dt class="inline font-semibold text-white">
               </dt>
-              <dd class="inline">Domination.</dd>
             </div>
             <div class="relative pl-9">
             </div>
@@ -378,7 +377,7 @@
 <div class="relative">
 
 
-  
+
 
 
       <div class="bg-white py-24 sm:py-32">
