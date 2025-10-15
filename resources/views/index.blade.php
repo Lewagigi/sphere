@@ -179,7 +179,7 @@
           </dl>
         </div>
       </div>
-      <img width="2432" height="1442" src="/img/WhatsApp Image 2025-10-12 at 20.24.21.jpeg" alt="Product screenshot" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-228 md:-ml-4 lg:-ml-0" />
+      <img width="2432" height="1400" src="/img/WhatsApp Image 2025-10-12 at 20.24.21.jpeg" alt="Product screenshot" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-228 md:-ml-4 lg:-ml-0" />
     </div>
   </div>
 </div>
