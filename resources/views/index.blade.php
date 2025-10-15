@@ -151,7 +151,6 @@
             </p>
 
 
-            <p class="mt-6 text-lg/8 text-gray-300">Notre Mission</p>
 
 
 
@@ -159,7 +158,7 @@
             <div class="relative pl-9">
               <dt class="inline font-semibold text-white">
 
-                Futur leader
+
               </dt>
               <dd class="inline">Notre Espoir Eternel</dd>
             </div>
@@ -180,7 +179,7 @@
           </dl>
         </div>
       </div>
-      <img width="2432" height="1442" src="/img/3e30910891ae9ce42d174de99e3de348.jpg" alt="Product screenshot" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-228 md:-ml-4 lg:-ml-0" />
+      <img width="2432" height="1442" src="/img/WhatsApp Image 2025-10-12 at 20.24.21.jpeg" alt="Product screenshot" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-228 md:-ml-4 lg:-ml-0" />
     </div>
   </div>
 </div>
