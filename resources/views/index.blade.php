@@ -27,7 +27,7 @@
 
               <a href="{{route('home')}}" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Les Membres de Gci Nouvelle Technologie</a>
               <a href="" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projets</a>
-              <a href="{{route('register')}}" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Enregistrez Vous</a>
+
               <a href="{{route('login')}}" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Se Connecter</a>
             </div>
           </div>
