@@ -18,7 +18,7 @@
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
           <div class="shrink-0">
-            <img src="/img/" alt="" class="size-8" />
+            <img src="/img/WhatsApp Image 2025-10-12 at 20.24.21.jpeg" alt="" class="size-8" />
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
