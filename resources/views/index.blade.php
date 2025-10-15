@@ -130,6 +130,25 @@
           <h2 class="text-base/7 font-semibold text-indigo-400">Nouvelle ère</h2>
           <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">Gci NOUVELLE TECHNOLOGIE</p>
           <p class="mt-6 text-lg/8 text-gray-300">Notre Vision.</p>
+
+            <p>
+
+                Notre vision est de faire émerger une génération
+                de développeurs, designers et ingénieurs chrétiens
+                qui impacteront l’innovation responsable en France
+                et ailleurs.
+                Notre territoire est celui entre autre des start-ups
+                tech et des écoles d’ingénieurs.
+                Notre objectif
+                Former des leader chrétiens compétents dans les
+                domaines des nouvelles technologies afin
+                d’influencer les sphères décisionnaires.
+                Actes 17:6
+                Ne les ayant pas trouvés, ils traînèrent Jason et quelques frères devant
+                les magistrats de la ville, en criant: Ces gens, qui ont bouleversé le
+                monde, sont aussi venus ici.
+
+            </p>
           <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
             <div class="relative pl-9">
               <dt class="inline font-semibold text-white">
