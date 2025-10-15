@@ -149,6 +149,12 @@
                 monde, sont aussi venus ici.
 
             </p>
+
+
+            <p class="mt-6 text-lg/8 text-gray-300">Notre Mission</p>
+
+
+
           <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
             <div class="relative pl-9">
               <dt class="inline font-semibold text-white">
@@ -452,6 +458,50 @@
   </el-popover>
 </div>
 
+      <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
+      <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
+      <el-dropdown class="inline-block">
+          <button class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white/10 px-3 py-2 text-sm font-semibold text-white inset-ring-1 inset-ring-white/5 hover:bg-white/20">
+              Nos Missions
+              <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="-mr-1 size-5 text-gray-400">
+                  <path d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" fill-rule="evenodd" />
+              </svg>
+          </button>
+
+          <el-menu anchor="bottom end" popover class="w-56 origin-top-right divide-y divide-white/10 rounded-md bg-gray-800 outline-1 -outline-offset-1 outline-white/10 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
+              <div class="py-1">
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">ACCESSIBILITÉ</a>
+                    <p>
+                        Rendre l’univers de la
+                        technologie accessible et
+                        compréhensible pour tous
+                    </p>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">L’INNOVATION</a>
+                    <p>
+                        Susciter des vocations et
+                        engendrer de futurs innovateurs,
+                        créateurs et entrepreneurs pour
+                        Dieu qui vont impacter leur
+                        génération
+                    </p>
+              </div>
+              <div class="py-1">
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">CONSEIL ET CONNEXIONS</a>
+                   <p>
+                       Connecter les personnes
+                       selon leurs besoins dans
+                       les nouvelles technologies
+                   </p>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">LA FINALITÉ</a>
+                     <p>
+                         Faire de l’évangélisation
+                         par l’influence,
+                         attirer les âmes à Christ
+                     </p>
+              </div>
+
+          </el-menu>
+      </el-dropdown>
 
 
 
@@ -461,7 +511,8 @@
 
 
 
-<div class="bg-white py-24 sm:py-32">
+
+      <div class="bg-white py-24 sm:py-32">
   <div class="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
     <div class="max-w-xl">
       <h2 class="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl">Rencontre Notre Equipe</h2>
