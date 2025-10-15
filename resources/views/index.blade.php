@@ -246,8 +246,6 @@
                       technologie accessible et
                       compréhensible pour tous
                   </p>
-
-                <p class="mt-1 text-gray-600">Seulement les admins</p>
               </div>
             </div>
             <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -269,7 +267,7 @@
                       Dieu qui vont impacter leur
                       génération
                   </p>
-                <p class="mt-1 text-gray-600">Liens pour discuter avec les membres</p>
+
               </div>
             </div>
             <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -288,7 +286,7 @@
                       selon leurs besoins dans
                       les nouvelles technologies
                   </p>
-                <p class="mt-1 text-gray-600">Interaction avec les membres</p>
+
               </div>
             </div>
             <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -307,7 +305,7 @@
                       par l’influence,
                       attirer les âmes à Christ
                   </p>
-                <p class="mt-1 text-gray-600">L'integration des nouveau membre</p>
+               
               </div>
             </div>
             <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
