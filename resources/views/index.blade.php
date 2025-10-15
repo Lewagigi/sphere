@@ -259,7 +259,7 @@
                       technologie accessible et
                       compréhensible pour tous
                   </p>
-                  
+
                 <p class="mt-1 text-gray-600">Seulement les admins</p>
               </div>
             </div>
@@ -271,9 +271,17 @@
               </div>
               <div class="flex-auto">
                 <a href="#" class="block font-semibold text-gray-900">
-                  Membre simple
+                    L’INNOVATION
                   <span class="absolute inset-0"></span>
                 </a>
+
+                  <p>
+                      Susciter des vocations et
+                      engendrer de futurs innovateurs,
+                      créateurs et entrepreneurs pour
+                      Dieu qui vont impacter leur
+                      génération
+                  </p>
                 <p class="mt-1 text-gray-600">Liens pour discuter avec les membres</p>
               </div>
             </div>
@@ -285,9 +293,14 @@
               </div>
               <div class="flex-auto">
                 <a href="#" class="block font-semibold text-gray-900">
-                  Acces aux comptes
+                    CONSEIL ET CONNEXIONS
                   <span class="absolute inset-0"></span>
                 </a>
+                  <p>
+                      Connecter les personnes
+                      selon leurs besoins dans
+                      les nouvelles technologies
+                  </p>
                 <p class="mt-1 text-gray-600">Interaction avec les membres</p>
               </div>
             </div>
@@ -299,9 +312,14 @@
               </div>
               <div class="flex-auto">
                 <a href="#" class="block font-semibold text-gray-900">
-                  Les membres impliquées
+                    LA FINALITÉ
                   <span class="absolute inset-0"></span>
                 </a>
+                  <p>
+                      Faire de l’évangélisation
+                      par l’influence,
+                      attirer les âmes à Christ
+                  </p>
                 <p class="mt-1 text-gray-600">L'integration des nouveau membre</p>
               </div>
             </div>
