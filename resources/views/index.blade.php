@@ -177,54 +177,6 @@
 
 
 
-        <div class="grid grid-cols-3 gap-4">
-            <div>
-                <h2>ACCESSIBILITÉ</h2>
-                 <p>
-                   Rendre l'univers de la technologie accessible et comprehensible pour tous.
-                 </p>
-
-            </div>
-
-            <div class="visible ...">
-                <h2>L'INNOVATION</h2>
-                <p>
-                    Susciter des vocations et engendrer de futurs inovateurs,createurs et entrepreneurs
-                    pour Dieu qui vont impacter leur géneration
-                </p>
-
-            </div>
-
-               <div>
-                   <h2>CONSEILS ET CONNEXIONS</h2>
-                   <p>
-                       Connecter les personnes selon leurs besoins dans les nouvelles technologies.
-                   </p>
-
-
-               </div>
-
-
-            <div>
-                <h2>LA FINALITE</h2>
-                <p>
-                   Faire de l'evangelisation par l'influence attirer les ames à CHRIST.
-                </p>
-
-            </div>
-
-
-
-            <div>
-                <h2>Les membres impliquer à la prière</h2>
-                <p>
-                  Les temps de prière
-                </p>
-
-            </div>
-
-
-        </div>
 
 <div class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
   <div aria-hidden="true" class="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl">
@@ -387,10 +339,6 @@
 
 
 
-<!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
-
-
 
       </div>
 
@@ -398,11 +346,61 @@
 </header>
 
 
+      <div class="grid grid-cols-3 gap-4">
+          <div>
+              <h2>ACCESSIBILITÉ</h2>
+              <p>
+                  Rendre l'univers de la technologie accessible et comprehensible pour tous.
+              </p>
+
+          </div>
+
+          <div class="visible ...">
+              <h2>L'INNOVATION</h2>
+              <p>
+                  Susciter des vocations et engendrer de futurs inovateurs,createurs et entrepreneurs
+                  pour Dieu qui vont impacter leur géneration
+              </p>
+
+          </div>
+
+          <div>
+              <h2>CONSEILS ET CONNEXIONS</h2>
+              <p>
+                  Connecter les personnes selon leurs besoins dans les nouvelles technologies.
+              </p>
+
+
+          </div>
+
+
+          <div>
+              <h2>LA FINALITE</h2>
+              <p>
+                  Faire de l'evangelisation par l'influence attirer les ames à CHRIST.
+              </p>
+
+          </div>
+
+
+
+          <div>
+              <h2>Les membres impliquer à la prière</h2>
+              <p>
+                  Les temps de prière
+              </p>
+
+          </div>
+
+
+      </div>
 
 
 
 
-<!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
+
+
+      <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
 <div class="relative">
 
