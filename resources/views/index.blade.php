@@ -347,7 +347,7 @@
 
 
       <div class="grid grid-cols-3 gap-4">
-          <div>
+          <div class="visible ...">
               <h2>ACCESSIBILITÉ</h2>
               <p>
                   Rendre l'univers de la technologie accessible et comprehensible pour tous.
