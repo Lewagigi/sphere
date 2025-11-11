@@ -232,6 +232,7 @@
               <div class="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
 
               </div>
+
               <div class="flex-auto">
                 <a href="#" class="block font-semibold text-gray-900">
                     ACCESSIBILITÉ
@@ -336,16 +337,6 @@
 
 
 
-
-
-
-
-      </div>
-
-
-</header>
-
-
       <div class="grid grid-cols-3 gap-4">
           <div class="visible ...">
               <h2>ACCESSIBILITÉ</h2>
@@ -395,6 +386,16 @@
 
       </div>
 
+
+
+
+
+
+
+    
+
+
+</header>
 
 
 
