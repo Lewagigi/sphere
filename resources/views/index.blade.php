@@ -205,203 +205,63 @@
 
 <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
-<header class="bg-white">
-  <nav aria-label="Global" class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-    <div class="flex lg:flex-1">
-      <a href="#" class="-m-1.5 p-1.5">
 
-        <img src="" alt="" class="h-8 w-auto" />
-      </a>
-    </div>
-    <div class="flex lg:hidden">
-      <button type="button" command="show-modal" commandfor="mobile-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-        <span class="sr-only">Open main menu</span>
+      <h1>uuuuuuuu</h1>
+        <div class="grid grid-cols-3 gap-4">
+            <div class="visible ...">
+                <h2>ACCESSIBILITÉ</h2>
+                <p>
+                    Rendre l'univers de la technologie accessible et comprehensible pour tous.
+                </p>
 
-      </button>
-    </div>
-    <el-popover-group class="hidden lg:flex lg:gap-x-12">
-      <div class="relative">
-        <button popovertarget="desktop-menu-product" class="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
-          Nos Missions
-
-        </button>
-
-        <el-popover id="desktop-menu-product" anchor="bottom" popover class="w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition transition-discrete [--anchor-gap:--spacing(3)] backdrop:bg-transparent open:block data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in">
-          <div class="p-4">
-            <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
-              <div class="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-
-              </div>
-
-              <div class="flex-auto">
-                <a href="#" class="block font-semibold text-gray-900">
-                    ACCESSIBILITÉ
-
-                  <span class="absolute inset-0"></span>
-                </a>
-                  <p>
-                      Rendre l’univers de la
-                      technologie accessible et
-                      compréhensible pour tous
-                  </p>
-              </div>
             </div>
-            <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
-              <div class="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
 
-              </div>
-              <div class="flex-auto">
-                <a href="#" class="block font-semibold text-gray-900">
-                    L’INNOVATION
-                  <span class="absolute inset-0"></span>
-                </a>
+            <div class="visible ...">
+                <h2>L'INNOVATION</h2>
+                <p>
+                    Susciter des vocations et engendrer de futurs inovateurs,createurs et entrepreneurs
+                    pour Dieu qui vont impacter leur géneration
+                </p>
 
-                  <p>
-                      Susciter des vocations et
-                      engendrer de futurs innovateurs,
-                      créateurs et entrepreneurs pour
-                      Dieu qui vont impacter leur
-                      génération
-                  </p>
-
-              </div>
             </div>
-            <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
-              <div class="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
 
-              </div>
-              <div class="flex-auto">
-                <a href="#" class="block font-semibold text-gray-900">
-                    CONSEIL ET CONNEXIONS
-                  <span class="absolute inset-0"></span>
-                </a>
-                  <p>
-                      Connecter les personnes
-                      selon leurs besoins dans
-                      les nouvelles technologies
-                  </p>
+            <div>
+                <h2>CONSEILS ET CONNEXIONS</h2>
+                <p>
+                    Connecter les personnes selon leurs besoins dans les nouvelles technologies.
+                </p>
 
-              </div>
+
             </div>
-            <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
-              <div class="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
 
-              </div>
-              <div class="flex-auto">
-                <a href="#" class="block font-semibold text-gray-900">
-                    LA FINALITÉ
-                  <span class="absolute inset-0"></span>
-                </a>
-                  <p>
-                      Faire de l’évangélisation
-                      par l’influence,
-                      attirer les âmes à Christ
-                  </p>
 
-              </div>
+            <div>
+                <h2>LA FINALITE</h2>
+                <p>
+                    Faire de l'evangelisation par l'influence attirer les ames à CHRIST.
+                </p>
+
             </div>
-            <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
-              <div class="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
 
-              </div>
-              <div class="flex-auto">
-                <a href="#" class="block font-semibold text-gray-900">
-                  Les membres impliquer à la priere
-                  <span class="absolute inset-0"></span>
-                </a>
-                <p class="mt-1 text-gray-600">Les temps de priere</p>
-              </div>
+
+
+            <div>
+                <h2>Les membres impliquer à la prière</h2>
+                <p>
+                    Les temps de prière
+                </p>
+
             </div>
-          </div>
-          <div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-            <a href="#" class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100">
-
-            </a>
-            <a href="{{route('home')}}" class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100">
 
 
-            </a>
-          </div>
-        </el-popover>
-      </div>
-
-      <a href="#" class="text-sm/6 font-semibold text-gray-900">Titre de l'evenement</a>
-      <a href="#" class="text-sm/6 font-semibold text-gray-900">information sur l'intervenaant</a>
-      <a href="#" class="text-sm/6 font-semibold text-gray-900">hfhh</a>
-    </el-popover-group>
-    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="{{route('home')}}" class="text-sm/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
-    </div>
-  </nav>
-  <el-dialog>
-
-
-
-      <div class="grid grid-cols-3 gap-4">
-          <div class="visible ...">
-              <h2>ACCESSIBILITÉ</h2>
-              <p>
-                  Rendre l'univers de la technologie accessible et comprehensible pour tous.
-              </p>
-
-          </div>
-
-          <div class="visible ...">
-              <h2>L'INNOVATION</h2>
-              <p>
-                  Susciter des vocations et engendrer de futurs inovateurs,createurs et entrepreneurs
-                  pour Dieu qui vont impacter leur géneration
-              </p>
-
-          </div>
-
-          <div>
-              <h2>CONSEILS ET CONNEXIONS</h2>
-              <p>
-                  Connecter les personnes selon leurs besoins dans les nouvelles technologies.
-              </p>
-
-
-          </div>
-
-
-          <div>
-              <h2>LA FINALITE</h2>
-              <p>
-                  Faire de l'evangelisation par l'influence attirer les ames à CHRIST.
-              </p>
-
-          </div>
-
-
-
-          <div>
-              <h2>Les membres impliquer à la prière</h2>
-              <p>
-                  Les temps de prière
-              </p>
-
-          </div>
-
-
-      </div>
+        </div>
 
 
 
 
 
 
-
-    
-
-
-</header>
-
-
-
-
-
-      <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
+        <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
 <div class="relative">
 
