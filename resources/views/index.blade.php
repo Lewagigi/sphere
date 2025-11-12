@@ -176,6 +176,9 @@
 </div>
 
 
+        <div class="flex items-stretch ...">  <div>01</div>  <div class="self-stretch ...">02</div>  <div>03</div></div>
+
+
 
 
 <div class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
@@ -207,6 +210,8 @@
 <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
 
       <h1>uuuuuuuu</h1>
+
+
         <div class="grid grid-cols-3 gap-4">
             <div class="visible ...">
                 <h2>ACCESSIBILITÉ</h2>
