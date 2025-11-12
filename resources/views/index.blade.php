@@ -164,7 +164,7 @@
 
 
 
-            <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
+            <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-black-400 lg:max-w-none">
             <div class="relative pl-9">
               <dt class="inline font-semibold text-white">
               </dt>
@@ -205,7 +205,7 @@
     <h1>uuuuuuuu</h1>
 
 
-    <div class="bg-black shadow-smgrid grid-cols-3 gap-4">
+    <div class="bg-white shadow-smgrid grid-cols-3 gap-4">
         <div class="visible ...">
             <h2>ACCESSIBILITÉ</h2>
             <p>
