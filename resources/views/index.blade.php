@@ -151,12 +151,34 @@
             </p>
 
 
+            <div class="flex items-stretch ...">
+
+
+                <div>
+                    01
+                </div>
+
+                <div class="self-stretch ...">
+                    02
+                </div>
+
+                <div>
+                    uruurururu
+                    itiiit uirurut hdjjeur
+                    03
+
+                </div>
+
+
+            </div>
 
 
 
 
 
-          <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
+
+
+            <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
             <div class="relative pl-9">
               <dt class="inline font-semibold text-white">
               </dt>
@@ -176,7 +198,6 @@
 </div>
 
 
-        <div class="flex items-stretch ...">  <div>01</div>  <div class="self-stretch ...">02</div>  <div>03</div></div>
 
 
 
