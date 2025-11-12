@@ -156,57 +156,6 @@
             ` via npm: -->
             <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
 
-            <h1>uuuuuuuu</h1>
-
-
-            <div class="grid grid-cols-3 gap-4">
-                <div class="visible ...">
-                    <h2>ACCESSIBILITÉ</h2>
-                    <p>
-                        Rendre l'univers de la technologie accessible et comprehensible pour tous.
-                    </p>
-
-                </div>
-
-                <div class="visible ...">
-                    <h2>L'INNOVATION</h2>
-                    <p>
-                        Susciter des vocations et engendrer de futurs inovateurs,createurs et entrepreneurs
-                        pour Dieu qui vont impacter leur géneration
-                    </p>
-
-                </div>
-
-                <div>
-                    <h2>CONSEILS ET CONNEXIONS</h2>
-                    <p>
-                        Connecter les personnes selon leurs besoins dans les nouvelles technologies.
-                    </p>
-
-
-                </div>
-
-
-                <div>
-                    <h2>LA FINALITE</h2>
-                    <p>
-                        Faire de l'evangelisation par l'influence attirer les ames à CHRIST.
-                    </p>
-
-                </div>
-
-
-
-                <div>
-                    <h2>Les membres impliquer à la prière</h2>
-                    <p>
-                        Les temps de prière
-                    </p>
-
-                </div>
-
-
-            </div>
 
 
             <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
@@ -240,7 +189,61 @@
   <div aria-hidden="true" class="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl">
     <div style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)" class="aspect-577/310 w-144.25 bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30"></div>
   </div>
-  <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+
+
+    <h1>uuuuuuuu</h1>
+
+
+    <div class="grid grid-cols-3 gap-4">
+        <div class="visible ...">
+            <h2>ACCESSIBILITÉ</h2>
+            <p>
+                Rendre l'univers de la technologie accessible et comprehensible pour tous.
+            </p>
+
+        </div>
+
+        <div class="visible ...">
+            <h2>L'INNOVATION</h2>
+            <p>
+                Susciter des vocations et engendrer de futurs inovateurs,createurs et entrepreneurs
+                pour Dieu qui vont impacter leur géneration
+            </p>
+
+        </div>
+
+        <div>
+            <h2>CONSEILS ET CONNEXIONS</h2>
+            <p>
+                Connecter les personnes selon leurs besoins dans les nouvelles technologies.
+            </p>
+
+
+        </div>
+
+
+        <div>
+            <h2>LA FINALITE</h2>
+            <p>
+                Faire de l'evangelisation par l'influence attirer les ames à CHRIST.
+            </p>
+
+        </div>
+
+
+
+        <div>
+            <h2>Les membres impliquer à la prière</h2>
+            <p>
+                Les temps de prière
+            </p>
+
+        </div>
+
+
+    </div>
+
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
     <p class="text-sm/6 text-gray-900">
       <strong class="font-semibold">Gci</strong><svg viewBox="0 0 2 2" aria-hidden="true" class="mx-2 inline size-0.5 fill-current"><circle r="1" cx="1" cy="1" /></svg>Regjoingnez le prochain evenement .....
     </p>
