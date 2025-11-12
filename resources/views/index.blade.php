@@ -205,7 +205,7 @@
     <h1>uuuuuuuu</h1>
 
 
-    <div class="grid grid-cols-3 gap-4">
+    <div class="bg-black shadow-smgrid grid-cols-3 gap-4">
         <div class="visible ...">
             <h2>ACCESSIBILITÉ</h2>
             <p>
