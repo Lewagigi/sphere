@@ -212,13 +212,13 @@
 
         <div class="flex flex-nowrap">
 
-            <div>01</div>
+            <div class="text-sm/6 text-black-900">01</div>
 
 
-            <div>02</div>
+            <div class="text-sm/6 text-black-900">02</div>
 
 
-            <div>03</div>
+            <div class="text-sm/6 text-black-900">03</div>
 
         </div>
 
