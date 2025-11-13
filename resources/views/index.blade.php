@@ -208,12 +208,12 @@
 
 
     <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
-    <p class="text-sm/6 text-gray-900">
+    <p class="text-sm/6 text-black-900">
 
         <div class="flex flex-nowrap">
 
             <div>01</div>
-            
+
 
             <div>02</div>
 
