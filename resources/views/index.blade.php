@@ -163,13 +163,13 @@
 
 
 
-            <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-bla-400 lg:max-w-none">
+            <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-black-400 lg:max-w-none">
             <div class="relative pl-9">
-              <dt class="inline font-semibold text-white">
+              <dt class="inline font-semibold text-black">
               </dt>
             </div>
             <div class="relative pl-9">
-              <dt class="inline font-semibold text-white">
+              <dt class="inline font-semibold text-black">
               </dt>
             </div>
             <div class="relative pl-9">
