@@ -184,6 +184,59 @@
 
 
 
+        <h1>uuuuuuuu</h1>
+
+
+        <div class="bg-black shadow-smgrid grid-cols-3 gap-4">
+            <div class="visible ...">
+                <h2>ACCESSIBILITÉ</h2>
+                <p>
+                    Rendre l'univers de la technologie accessible et comprehensible pour tous.
+                </p>
+
+            </div>
+
+            <div class="visible ...">
+                <h2>L'INNOVATION</h2>
+                <p>
+                    Susciter des vocations et engendrer de futurs inovateurs,createurs et entrepreneurs
+                    pour Dieu qui vont impacter leur géneration
+                </p>
+
+            </div>
+
+            <div>
+                <h2>CONSEILS ET CONNEXIONS</h2>
+                <p>
+                    Connecter les personnes selon leurs besoins dans les nouvelles technologies.
+                </p>
+
+
+            </div>
+
+
+            <div>
+                <h2>LA FINALITE</h2>
+                <p>
+                    Faire de l'evangelisation par l'influence attirer les ames à CHRIST.
+                </p>
+
+            </div>
+
+
+
+            <div>
+                <h2>Les membres impliquer à la prière</h2>
+                <p>
+                    Les temps de prière
+                </p>
+
+            </div>
+
+
+        </div>
+
+
 
 
 
