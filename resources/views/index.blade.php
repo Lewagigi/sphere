@@ -274,7 +274,7 @@
     <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
       <li>
         <div class="flex items-center gap-x-6">
-          <img src="" alt="" class="size-16 rounded-full outline-1 -outline-offset-1 outline-black/5" />
+          <img src="img/FB_IMG_1596742974820.jpg" alt="" class="size-16 rounded-full outline-1 -outline-offset-1 outline-black/5" />
           <div>
             <h3 class="text-base/7 font-semibold tracking-tight text-gray-900">Noura</h3>
             <p class="text-sm/6 font-semibold text-indigo-600">leader</p>
