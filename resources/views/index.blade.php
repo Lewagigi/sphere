@@ -234,7 +234,7 @@
             NOTRE CIBLE
         </h1>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-gray-900 p-10 rounded-xl shadow-xl">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 bg-gray-900 p-10 rounded-xl shadow-xl">
 
             <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-xl transition">
                 <h2 class="text-xl font-semibold text-white mb-3">Les Jeunes étudiants ou non</h2>
