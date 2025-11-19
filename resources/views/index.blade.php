@@ -183,62 +183,49 @@
 </div>
 
 
+        <h1 class="text-3xl font-bold text-center text-gray-900 mt-16 mb-10">
+            Nos Piliers
+        </h1>
 
-        <h1>uuuuuuuu</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-gray-900 p-10 rounded-xl shadow-xl">
 
-
-        <div class="bg-black shadow-smgrid grid-cols-3 gap-4">
-            <div class="visible ...">
-                <h2>ACCESSIBILITÉ</h2>
-                <p>
-                    Rendre l'univers de la technologie accessible et comprehensible pour tous.
+            <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-xl transition">
+                <h2 class="text-xl font-semibold text-white mb-3">ACCESSIBILITÉ</h2>
+                <p class="text-gray-300">
+                    Rendre l'univers de la technologie accessible et compréhensible pour tous.
                 </p>
-
             </div>
 
-            <div class="visible ...">
-                <h2>L'INNOVATION</h2>
-                <p>
-                    Susciter des vocations et engendrer de futurs inovateurs,createurs et entrepreneurs
-                    pour Dieu qui vont impacter leur géneration
+            <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-xl transition">
+                <h2 class="text-xl font-semibold text-white mb-3">L'INNOVATION</h2>
+                <p class="text-gray-300">
+                    Susciter des vocations et engendrer de futurs innovateurs, créateurs et entrepreneurs
+                    pour Dieu afin d’impacter leur génération.
                 </p>
-
             </div>
 
-            <div>
-                <h2>CONSEILS ET CONNEXIONS</h2>
-                <p>
+            <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-xl transition">
+                <h2 class="text-xl font-semibold text-white mb-3">CONSEILS ET CONNEXIONS</h2>
+                <p class="text-gray-300">
                     Connecter les personnes selon leurs besoins dans les nouvelles technologies.
                 </p>
-
-
             </div>
 
-
-            <div>
-                <h2>LA FINALITE</h2>
-                <p>
-                    Faire de l'evangelisation par l'influence attirer les ames à CHRIST.
+            <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-xl transition">
+                <h2 class="text-xl font-semibold text-white mb-3">LA FINALITÉ</h2>
+                <p class="text-gray-300">
+                    Faire de l'évangélisation par l'influence et attirer les âmes à CHRIST.
                 </p>
-
             </div>
 
-
-
-            <div>
-                <h2>Les membres impliquer à la prière</h2>
-                <p>
-                    Les temps de prière
+            <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-xl transition">
+                <h2 class="text-xl font-semibold text-white mb-3">PRIÈRE</h2>
+                <p class="text-gray-300">
+                    Les membres engagés dans la prière et les temps d'intercession.
                 </p>
-
             </div>
-
 
         </div>
-
-
-
-
 
 
 
