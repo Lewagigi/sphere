@@ -238,21 +238,6 @@
 
 
 
-    <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
-    <p class="text-sm/6 text-black-900">
-
-        <div class="flex flex-nowrap">
-
-            <div class="text-sm/6 text-black-900">01</div>
-
-
-            <div class="text-sm/6 text-black-900">02</div>
-
-
-            <div class="text-sm/6 text-black-900">03</div>
-
-        </div>
-
       <strong class="font-semibold">Gci</strong><svg viewBox="0 0 2 2" aria-hidden="true" class="mx-2 inline size-0.5 fill-current"><circle r="1" cx="1" cy="1" /></svg>Regjoingnez le prochain evenement .....
     </p>
 
