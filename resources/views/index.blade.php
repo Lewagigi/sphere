@@ -177,14 +177,14 @@
           </dl>
         </div>
       </div>
-      <img width="2432" height="1400" src="/img/WhatsApp Image 2025-10-12 at 20.24.21.jpeg" alt="Product screenshot" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-228 md:-ml-4 lg:-ml-0" />
+      <img width="2432" height="1400" src="/img/3e30910891ae9ce42d174de99e3de348.jpg" alt="Product screenshot" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-228 md:-ml-4 lg:-ml-0" />
     </div>
   </div>
 </div>
 
 
         <h1 class="text-3xl font-bold text-center text-gray-900 mt-16 mb-10">
-            Nos Piliers
+            Nos Valeurs
         </h1>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-gray-900 p-10 rounded-xl shadow-xl">
